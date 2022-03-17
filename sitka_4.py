@@ -19,10 +19,6 @@ highs = []
 dates = []
 lows = []
 
-"""  
-testDate = datetime.strptime("1997/10/16", "%Y-%m-%d")
-test2 = date("1997/10/16")
-"""
 
 for record in csvFile:
     try:
@@ -53,7 +49,7 @@ plt.tick_params(axis="both", which = "major", labelsize = 16)
 
 fig.autofmt_xdate()
 
-#plt.show()
+plt.show()
  
 plt.subplot(2,1,1)
 plt.plot(dates,highs,c="red")

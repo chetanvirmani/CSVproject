@@ -21,10 +21,6 @@ for index, columnHeader in enumerate (headerRow): #enumerate can be ran on any l
 highs = []
 dates = []
 
-"""  
-testDate = datetime.strptime("1997/10/16", "%Y-%m-%d")
-test2 = date("1997/10/16")
-"""
 
 for record in csvFile:
     highs.append(int(record[5]))

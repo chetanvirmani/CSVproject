@@ -45,8 +45,10 @@ plt.tick_params(axis="both", which = "major", labelsize = 16)
 
 fig.autofmt_xdate()
 
-#plt.show()
- 
+plt.show()
+
+
+
 plt.subplot(2,1,1)
 plt.plot(dates,highs,c="red")
 plt.title("Highs")
