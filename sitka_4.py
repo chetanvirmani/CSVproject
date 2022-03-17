@@ -1,5 +1,5 @@
 
-from multiprocessing.sharedctypes import Value
+
 import matplotlib.pyplot as plt
 import csv
 from datetime import datetime
